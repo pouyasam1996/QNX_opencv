@@ -6,15 +6,15 @@ set(CMAKE_C_STANDARD 11)
 
 # Find OpenCV package
 find_package(OpenCV REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS} src/include) # Include headers directory
 
 # Add source files
 set(SOURCES
-        main.c
-        isp.c
-        display.cpp
-        encoder.c
-        camera_wrapper.cpp
+        src/src/main.c
+        src/src/isp.c
+        src/src/display.cpp
+        src/src/encoder.c
+        src/src/camera_wrapper.cpp
 )
 
 # Add executable
