@@ -1,0 +1,3 @@
+/Users/pouyasamandi/Desktop/QNX_OpenCV/cmake-build-debug/CMakeFiles/QNX.dir
+/Users/pouyasamandi/Desktop/QNX_OpenCV/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/pouyasamandi/Desktop/QNX_OpenCV/cmake-build-debug/CMakeFiles/rebuild_cache.dir
